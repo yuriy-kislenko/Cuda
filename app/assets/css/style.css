@@ -967,6 +967,10 @@ textarea {
         transition: all 200ms ease-in-out; }
         .header .nav ul li a:hover {
           background: #643a79; }
+        .header .nav ul li a:focus {
+          background: #643a79; }
+        .header .nav ul li a:visited {
+          background: #643a79; }
   .header .nav-hamb {
     display: none; }
   .header a {
@@ -1073,8 +1077,9 @@ textarea {
 
 .main .header__section {
   background: #87509c;
-  padding-top: 150px;
-  padding-bottom: calc(150px + 82px); }
+  padding-top: 180px;
+  padding-bottom: calc(150px + 82px);
+  height: 100vh; }
   .main .header__section .header__text {
     text-align: center; }
     .main .header__section .header__text p {
@@ -1084,7 +1089,6 @@ textarea {
       font-size: 42px;
       font-weight: 700;
       line-height: 48.82px;
-      text-transform: uppercase;
       margin-bottom: 54px; }
   .main .header__section .header__link {
     padding: 20px 60px;
@@ -1107,7 +1111,8 @@ textarea {
 .main .services__we--provide {
   background: #17c2a4;
   padding-top: 115px;
-  padding-bottom: 115px; }
+  padding-bottom: 115px;
+  height: 100vh; }
   .main .services__we--provide .services__heading p {
     color: #ffffff;
     text-align: center;
@@ -1250,7 +1255,8 @@ textarea {
 .main .we__got--skills {
   background: #ffffff;
   padding-top: 115px;
-  padding-bottom: 115px; }
+  padding-bottom: 115px;
+  height: 100vh; }
   .main .we__got--skills .skills__heading p {
     color: #000000;
     text-align: center;
@@ -1461,7 +1467,8 @@ textarea {
 .main .contact {
   background: #3c5499;
   padding-top: 115px;
-  padding-bottom: 115px; }
+  padding-bottom: 115px;
+  height: 100vh; }
   .main .contact .contact__heading p {
     color: #ffffff;
     text-align: center;

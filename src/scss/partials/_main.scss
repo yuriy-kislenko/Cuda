@@ -2,8 +2,9 @@
     
     & .header__section { // begin header sections
         background: #87509c;
-        padding-top: 150px;
+        padding-top: 180px;
         padding-bottom: calc(150px + 82px);
+        height: 100vh;
 
         & .header__text {
             text-align: center;
@@ -15,7 +16,6 @@
                 font-size: 42px;
                 font-weight: 700;
                 line-height: 48.82px;
-                text-transform: uppercase;
                 margin-bottom: 54px;
             }
 
@@ -52,6 +52,7 @@
         background: $servicesWeProvideColor;
         padding-top: 115px;
         padding-bottom: 115px;
+        height: 100vh;
 
 
         & .services__heading {
@@ -234,6 +235,7 @@
         background: $weGotSkillsColor;
         padding-top: 115px;
         padding-bottom: 115px;
+        height: 100vh;
 
         & .skills__heading {
             
@@ -512,6 +514,7 @@
         background: $contactColor;
         padding-top: 115px;
         padding-bottom: 115px;
+        height: 100vh;
 
         & .contact__heading {
             
