@@ -684,3 +684,18 @@ textarea::-webkit-input-placeholder {
      opacity: 1; 
      font-weight: 500;
     }
+
+@media only screen and (max-width: 767px) {
+    .header__section {
+        height: unset !important;
+    }
+    .services__we--provide {
+        height: unset !important; 
+    }
+    .we__got--skills {
+        height: unset !important; 
+    }
+    .contact {
+        height: unset !important;
+    }
+}
